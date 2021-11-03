@@ -7,14 +7,15 @@ import org.testng.*;
 import org.testng.annotations.Test;
 
 public class SearchEngineTest extends DriverBase {
-    
+
 
    @Test
    public void verify_first_result_on_search_engine() throws Exception {
        String searchText= TestProperties.getProperty("searchParameter");
        String expectedSearchResult=TestProperties.getProperty("expectedResult");
        SearchHomePage searchHomePage=new SearchHomePage(driver);
-       searchHomePage.openSearchHomePage();
+       String searchEngine=TestProperties.getProperty("searchEngine");
+       searchHomePage.openSearchHomePage(searchEngine);
        log.info("Searching Text : "+searchText);
        searchHomePage.enterSearchText(searchText);
        searchHomePage.clickSearchButton();

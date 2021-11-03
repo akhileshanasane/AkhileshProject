@@ -22,8 +22,7 @@ public class SearchHomePage extends DriverBase {
     @FindBy(xpath = "//div[@id='search']//following::a[1]")
     public WebElement firstSearchResult;
 
-    public void openSearchHomePage() throws Exception {
-        String pageUrl=EnvironmentProperties.getProperty("url");
+    public void openSearchHomePage(String pageUrl) throws Exception {
         log.info("Opening Page URL :"+pageUrl);
         driver.get(pageUrl);
 
