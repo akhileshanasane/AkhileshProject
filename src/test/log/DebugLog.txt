@@ -1,0 +1,14 @@
+INFO    2021-10-29 12:12:49,643 [main] com.fiserv.base.DriverBase  - ============================ Suite Started : Selenium Test Suite ============================
+INFO    2021-10-29 12:12:54,171 [main] com.fiserv.base.DriverBase  - Driver Initialized
+INFO    2021-10-29 12:12:54,173 [main] com.fiserv.base.DriverBase  - Test Context Started : Selenium Test
+INFO    2021-10-29 12:12:54,337 [main] com.fiserv.base.DriverBase  - Test Started : verify_first_result_on_search_engine
+INFO    2021-10-29 12:12:54,371 [main] com.fiserv.base.DriverBase  - Opening Page URL :https://www.google.com/
+INFO    2021-10-29 12:12:56,500 [main] com.fiserv.base.DriverBase  - Searching Text : fiserv
+INFO    2021-10-29 12:12:59,539 [main] com.fiserv.base.DriverBase  - Actual Search Result  : Fiserv: Financial Services Technology, Mobile Banking ...
+https://www.fiserv.com
+INFO    2021-10-29 12:12:59,542 [main] com.fiserv.base.DriverBase  - Expected Search Result  : Fiserv: Financial Services Technology, Mobile Banking ...
+https://www.fiserv.com
+INFO    2021-10-29 12:12:59,545 [main] com.fiserv.base.DriverBase  - Test Passed : verify_first_result_on_search_engine
+INFO    2021-10-29 12:12:59,744 [main] com.fiserv.base.DriverBase  - Test Context Finished : Selenium Test
+INFO    2021-10-29 12:13:00,140 [main] com.fiserv.base.DriverBase  - Closing Browser
+INFO    2021-10-29 12:13:01,338 [main] com.fiserv.base.DriverBase  - ============================ Suite Finished : Selenium Test Suite ============================
